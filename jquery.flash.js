@@ -45,6 +45,11 @@
           .animate({
             top: (($(window).height()-flash.height()))-50+'px',
             opacity: 0.8
+          })
+          .delay(1000)
+          .animate({
+            top: ($(window).height()+50)+'px',
+            opacity: 0
           });
         
         $(document).click(function(){
